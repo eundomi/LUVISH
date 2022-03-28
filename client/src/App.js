@@ -1,5 +1,4 @@
 import React from "react";
-import BottomNav from "./components/nav/BottomNav";
 import Home from "./pages/Home";
 import Calender from "./pages/Calender";
 import Letter from "./pages/Letter";
