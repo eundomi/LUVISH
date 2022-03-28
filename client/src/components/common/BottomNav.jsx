@@ -58,8 +58,8 @@ const StyledLink = styled(Link)`
 `;
 const BottomNavWrapper = styled.div`
   height: 90px;
-  width: 100%;
   position: fixed;
+  width: 100%;
   bottom: 0px;
   display: flex;
   background: #fefeff;
@@ -67,6 +67,9 @@ const BottomNavWrapper = styled.div`
   border-radius: 30px 30px 0px 0px;
   justify-content: space-evenly;
   align-items: center;
+  @media (min-width: 1080px) {
+    max-width: 650px !important;
+  }
 `;
 const Icon = styled.div`
   display: flex;

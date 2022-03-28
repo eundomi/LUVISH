@@ -1,7 +1,15 @@
 import React from "react";
+import Header from "../components/common/Header";
+import BottomNav from "../components/common/BottomNav";
 
 const Letter = () => {
-  return <div>Letter</div>;
+  return (
+    <>
+      <Header />
+      <div>Letter</div>
+      <BottomNav />
+    </>
+  );
 };
 
 export default Letter;
